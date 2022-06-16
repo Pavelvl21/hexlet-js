@@ -1,4 +1,4 @@
-export const capitalize  = (text) => {
+export default (text) => {
   if (text === '') {
     return '';
   }
