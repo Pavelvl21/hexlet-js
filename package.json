@@ -5,7 +5,7 @@
   "description": "console.log(\"Hello, Hexlet!\");",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/capitalize.test.js"
   },
   "repository": {
     "type": "git",
@@ -18,12 +18,16 @@
   },
   "homepage": "https://github.com/Pavelvl21/hexlet-js#readme",
   "dependencies": {
+    "core-js": "^3.23.1",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
     "eslint": "^8.16.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
-    "prettier": "^2.6.2"
+    "power-assert": "^1.6.1",
+    "prettier": "^2.6.2",
+    "webpack": "^5.73.0",
+    "webpack-espower-loader": "^2.0.0"
   }
 }
