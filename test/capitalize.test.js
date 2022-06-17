@@ -1,7 +1,7 @@
 
-import { strict as assert } from 'assert';
+import assert from 'power-assert';
 import capitalize from '../src/capitalize.js';
 
-assert.equal(capitalize(''), '');
-assert.equal(capitalize('hello'), 'Hello');
+assert(capitalize('') === '');
+assert(capitalize('hello') === 'Hello');
 console.log('All tests is passed!')
