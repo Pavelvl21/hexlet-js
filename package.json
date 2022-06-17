@@ -5,7 +5,7 @@
   "description": "console.log(\"Hello, Hexlet!\");",
   "main": "index.js",
   "scripts": {
-    "test": "node test/capitalize.test.js"
+    "test": "node _test/capitalize.test.js"
   },
   "repository": {
     "type": "git",
